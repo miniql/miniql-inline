@@ -1,6 +1,6 @@
 import { IQueryResolver } from "@miniql/core-types";
-import { createQueryResolver as createLazyResolver, IQueryResolverConfig, ILazyDataLoader } from "./lazy";
-export { IQueryResolverConfig, IRelatedEntityConfig, IRelatedEntities, IEntityType, IEntityTypes,  } from "./lazy";
+import { createQueryResolver as createLazyResolver, IQueryResolverConfig, ILazyDataLoader } from "@miniql/lazy";
+export { IQueryResolverConfig, IRelatedEntityConfig, IRelatedEntities, IEntityType, IEntityTypes,  } from "@miniql/lazy";
 
 //
 // Defines the data to run queries against.

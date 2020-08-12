@@ -1,5 +1,5 @@
 import { createQueryResolver } from "..";
-import { IQueryResolverConfig } from "../lazy";
+import { IQueryResolverConfig } from "@miniql/lazy";
 
 describe("query entities", () => {
 

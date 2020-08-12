@@ -1,6 +1,6 @@
 {
     "name": "@miniql/inline",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "A MiniQL query resolver for inline data.",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -39,10 +39,10 @@
     },
     "homepage": "https://github.com/miniql/miniql-inline#readme",
     "dependencies": {
-        "@miniql/lazy": "0.0.1"
+        "@miniql/lazy": "0.0.2",
+        "@miniql/core-types": "0.0.1"
     },
     "devDependencies": {
-        "@miniql/core-types": "0.0.1",
         "@types/jest": "^26.0.4",
         "@types/node": "14.0.13",
         "jest": "^26.1.0",
